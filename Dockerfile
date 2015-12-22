@@ -1,5 +1,5 @@
-FROM ubuntu:15.04
-MAINTAINER QuantumObject <angel@quantumobject.com>
+FROM ubuntu:14.04
+MAINTAINER Monami-ya LLC, Japan <support@monami-ya.com>
 
 ADD . /build
 
