@@ -43,3 +43,11 @@ chmod +x /etc/service/cron/run
 ## Remove useless cron entries.
 # Checks for lost+found and scans for mtab.
 rm -f /etc/cron.daily/standard
+
+## Install ssh daemon.
+$minimal_apt_get_install openssh-server
+mkdir /etc/service/sshd
+cp /build/runit/sshd /etc/service/sshd/run
+chmod +x /etc/service/sshd/run
+mkdir /var/run/sshd
+

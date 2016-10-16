@@ -15,4 +15,6 @@ RUN /build/prepare.sh && \
 	/build/utilities.sh && \
 	/build/cleanup.sh
 
+EXPOSE 22
+
 CMD ["/sbin/my_init"]
