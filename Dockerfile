@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER QuantumObject <angel@quantumobject.com>
+FROM ubuntu:16.04
+MAINTAINER Masaki Muranaka <monaka@monami-ya.com>
 
 ENV HOME /root
 RUN mkdir -p /build
